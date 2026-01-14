@@ -101,8 +101,10 @@ if tela_de_login:
 if tela_proprietario:
     tela_proprietario.pushButton_2.clicked.connect(lambda:(tela_proprietario.close() ,tela_pedido_atendente.show()))
     tela_proprietario.pushButton.clicked.connect(lambda:(tela_proprietario.close(),tela_de_login.show()))
+    #testando branch
     
     sys.exit(app.exec_())
+
 
 
 
